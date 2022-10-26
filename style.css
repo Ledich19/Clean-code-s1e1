@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -47,7 +47,7 @@ h3 {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 .edit,
@@ -138,8 +138,8 @@ button{
 }
 
 /* Completed */
-ul .input{
-  display:none;
+ul .input {
+  display: none;
 }
 
 #completed-tasks .label {
