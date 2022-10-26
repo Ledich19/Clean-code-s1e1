@@ -42,8 +42,8 @@ ul {
   margin:0;
   padding: 0px;
 }
-li,
-h3 {
+
+h2 {
   list-style: none;
 }
 input,
@@ -67,8 +67,7 @@ button {
   color: #3a3a3a;
 }
 /* Heading */
-.title,
-.label-new {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -94,7 +93,7 @@ button {
 }
 
 /* New Task */
-.label-new {
+.title-add {
   display: block;
   margin: 0 0 20px;
 }
@@ -138,7 +137,7 @@ button {
 }
 
 /* Completed */
-ul .input {
+.task-item .input {
   display: none;
 }
 
