@@ -42,10 +42,10 @@ ul {
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .edit, .delete, .add {
   background: none;
@@ -143,10 +143,10 @@ ul .input{
 /* Edit Task */
 
 .edit-mode .input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
