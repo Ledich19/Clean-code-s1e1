@@ -21,17 +21,17 @@ body {
 .header { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .task-input {
+.label, .input {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
-.task-row-wrapper {
+.task-row {
   display: flex;
 }
 ul {
