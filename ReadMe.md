@@ -11,3 +11,7 @@
     - Редактирование элемента из списка "COMPLETED"
     - Установка элемента в статус незавершенного и перенос в список "TODO" через checkbox
     - Анимация на кнопке удаления
+
+
+deploy link
+https://rolling-scopes-school.github.io/ledich19-JSFE2022Q3/clean-code-s1e1/
