@@ -126,6 +126,11 @@
 }
 
 /* Completed */
+.completed-tasks__list,
+.incomplete-tasks__list {
+  padding: 0;
+}
+
 .task__input {
   display: none;
 }
