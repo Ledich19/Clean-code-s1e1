@@ -86,7 +86,7 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
+    var editInput=listItem.querySelector('.task__input');
     var label=listItem.querySelector(".task__content");
     var editBtn=listItem.querySelector(".task__edit");
     var containsClass=listItem.classList.contains("task_edit");
@@ -159,7 +159,7 @@ addButton.addEventListener("click",ajaxRequest);
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
 //select ListItems children
-    var checkBox=taskListItem.querySelector("input[type=checkbox]");
+    var checkBox=taskListItem.querySelector(".task__check");
     var editButton=taskListItem.querySelector("button.task__edit");
     var deleteButton=taskListItem.querySelector("button.task__delete");
 
